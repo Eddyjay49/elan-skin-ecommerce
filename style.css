@@ -1,0 +1,354 @@
+
+/* Color variables */
+
+/* ÉLAN SKIN — Color Palette */
+:root {
+    --background: #F7F2EA;
+    --primary: #263B32;
+    --accent: #B58A58;
+    --secondary: #D9B9A5;
+    --text: #292824;
+    --text-light: #716D65;
+    --white: #FFFFFF;
+    --border: #E5D5C3;
+    --success: #3D7455;
+    --error: #B64040;
+}
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+
+/* HEADER */
+header {
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+/* Header Navigation Layout */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    position: relative;
+}
+
+/* Header Brand Logo */
+.logo a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+
+/* Header Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+/* Navigation Link Styling */
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+
+/* Navigation Link Hover Effect */
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+
+/* Header Action Buttons */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid var(--border);
+    padding: 1rem 1.5rem; */
+}
+
+ .nav-actions button {
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.nav-actions button:hover {
+    color: var(--accent);
+}
+
+/* Shopping Cart Button */
+.cart-btn {
+    position: relative;
+}
+
+/* Shopping Cart Count */
+.cart-count {
+    position: absolute;
+    top: -0.8rem;
+    right: -1rem;
+    background-color: var(--accent);
+    color: var(--white);
+    font-size: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Hamburger Menu Button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+/* .menu-toggle:hover {
+    color: var(--accent);
+} */
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 7rem 5%;
+    /* background-color: var(--secondary); */
+}
+
+/* Hero Content */
+.hero-content{
+    flex: 1;
+}
+
+/* Hero Tagline */
+.hero-tagline {
+    color: var(--accent);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Hero Headline */
+.hero-content h1 {
+    color: var(--primary);
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Hero Description */
+.hero-description {
+    color: var(--text-light);
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    max-width: 50rem;
+}
+
+
+/* Hero Image Container */
+.hero-image {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Hero Buttons Container */
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Shared Button Styles */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Primary Button — Shop Collection */
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* Primary Button Hover */
+.btn-primary:hover {
+    background-color: var(--accent);
+}
+
+/* Secondary Button — Discover Our Story */
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--accent);
+}
+
+/* Secondary Button Hover */
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+
+
+/* FEARTUERD PRODUCT SECTION */
+.featured-products {
+    padding: 6rem 5%;
+    background-color: var(--background);
+}
+
+/* section heading*/
+.featured-products .section-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.featured-products .section-heading h2 {
+    color: var(--primary);
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+
+.featured-products .section-heading p {
+    color: var(--text-light);
+    font-size: 1.6rem;
+}
+
+
+/* section product grid */
+.featured-products .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    overflow: hidden;
+}
+
+/* .featured-products .product-card{
+    border: 2px solid var(--primary);
+    padding: 5px;
+} */
+
+/* Product image container */
+.featured-products .product-image {
+    width: 100%;
+    /* height: 25rem; */
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.featured-products .product-image :hover{
+     transform: translateY(-5px);
+     transition: transform 0.3s ease;
+}
+
+/* product image */
+.featured-products .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* product information */
+.featured-products .product-info {
+    padding: 1.8rem 1.2rem;
+    background-color: var(--white);
+}
+
+/* Product name  */
+.featured-products .product-info h3 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Product price */
+.featured-products .product-price {
+    color: var(--accent);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Add to card button */
+.featured-products .add-to-cart {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+.featured-products .add-to-cart:hover {
+    background-color: var(--accent);
+    color: var(--white);
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <title>E-Wommerce Website</title>
+</head>
+<body>
+
+    <!-- header -->
+<header>
+    <!-- nav -->
+    <nav>
+        <!-- Header Brand logo -->
+        <div class="logo">
+            <a href="#" aria-label="ÉLAN SKIN Home">
+                <span>ÉLAN SKIN</span>
+            </a>
+        </div>
+
+        <!-- Header Navigation Links -->
+        <ul class="nav-links" id="nav-links" aria-label="Main navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#our-story">Our Story</a></li>
+        </ul>
+
+        <!-- Header Actions butttons -->
+    <div class="nav-actions">
+        <button type="button" class="search-btn" aria-label="Search products" >
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </button>
+    
+        <button type="button" class="cart-btn" aria-label="Shopping cart">
+            <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+            <span class="cart-count">0</span>
+        </button>
+    </div>
+   
+    <!-- Hamburger Menu Button -->
+    <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+     <i class="bx bx-menu"></i>
+    </button>
+    </nav>
+</header>
+
+
+
+<!-- HERO SECTION -->
+<section  id="home" class="hero">
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+
+        <p class="hero-tagline">YOUR SKIN, YOUR RITUAL</p>
+        <h1>Reveal the Beauty of Your Natural Glow.</h1>
+
+        <p class="hero-description">
+            Thoughtfully crafted skincare that nourishes your skin
+            and celebrates your natural beauty.
+        </p>
+
+        <!-- Hero Buttons -->
+        <div class="hero-buttons">
+            <a href="#collections" class="btn btn-primary">Shop Collection</a>
+            <a href="#our-story" class="btn btn-secondary">Discover Our Story</a>
+        </div>
+
+    </div>
+
+    <!-- Hero Image -->
+    <div class="hero-image">
+        <img src="images/hero-skincare.jpg" alt="Premium skincare products arranged in a natural, botanical setting">
+    </div>
+</section>
+
+
+<!-- FEATURED PRODUCT SECTION -->
+<section class="featured-products" id="featured-products">
+
+    <!-- Section Heading -->
+    <div class="section-heading">
+        <h2>Our Featured Products</h2>
+        <p>Discover our carefully selected skincare essentials.</p>
+    </div>
+
+   <!-- product grid -->
+    <div class="product-grid">
+        <!-- Product 1: Facial Cleanser -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product1.jpg" alt="Gentle facial cleanser">
+            </div>
+        
+            <div class="product-info">
+                <h3>Gentle Facial Cleanser</h3>
+        
+                <p class="product-price">₦12,000</p>
+        
+                <button type="button" class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Product 2: Daily Hydration Cream -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product2.jpg" alt="Daily Hydration Cream">
+            </div>
+        
+            <div class="product-info">
+                <h3>Daily Hydration Cream</h3>
+        
+                <p class="product-price">₦10,500</p>
+        
+                <button type="button" class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Product 3: Daily Shield Sunscreen -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product3.jpg" alt="Daily Shield Sunscreen">
+            </div>
+        
+            <div class="product-info">
+                <h3>Daily Shield Sunscreen</h3>
+        
+                <p class="product-price">₦9,500</p>
+        
+                <button type="button" class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Product 4: Facial Cleanser -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product4.avif" alt="Radiance Face Serum">
+            </div>
+        
+            <div class="product-info">
+                <h3>Radiance Face Serum</h3>
+        
+                <p class="product-price">₦8,500</p>
+        
+                <button type="button" class="add-to-cart">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
