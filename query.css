@@ -144,7 +144,7 @@
 }
 
 .featured-products .section-heading h2 {
-    font-size: 2.9rem;
+    font-size: 3rem;
 }
 
 .featured-products .section-heading p {
@@ -184,4 +184,80 @@
     font-size: 1.3rem;
 }
 
+
+/* COLLECTIONS SECTION  */
+    .collections {
+        padding: 5rem 4%;
+    }
+
+    .collections .section-heading {
+        margin-bottom: 3rem;
+    }
+
+    .collections .section-heading h2 {
+        font-size: 2.9rem;
+    }
+
+    .collections .section-heading p {
+        font-size: 1.4rem;
+    }
+
+    /* collections grid */
+    .collections .collections-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+    }
+
+    /* Collection image */
+    .collections .collection-image {
+        height: 22rem;
+    }
+
+    /* Collection information */
+    .collections .collection-info {
+        padding: 1.5rem 1rem;
+    }
+
+    .collections .collection-info h3 {
+        font-size: 1.8rem;
+    }
+
+    .collections .collection-info p {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+/* COLLECTIONS SECTION — MOBILE */
+@media (max-width: 30rem) {
+
+    .collections {
+        padding: 4rem 5%;
+    }
+
+    .collections .section-heading h2 {
+        font-size: 3rem;
+    }
+
+    .collections .collections-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .collections .collection-image {
+        height: 23rem;
+    }
+
+    .collections .collection-info {
+        padding: 1.5rem;
+    }
+
+    .collections .collection-info h3 {
+        font-size: 2rem;
+    }
+
+    .collections .collection-info p {
+        font-size: 1.3rem;
+    }
 }
