@@ -116,16 +116,17 @@
 
     .hero-tagline {
         font-size: 1.1rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .hero-content h1{
-        font-size: 4rem;
-        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
     }
 
     .hero-description{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
     }
 
     .btn{
