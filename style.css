@@ -146,6 +146,7 @@ header nav {
     color: var(--accent);
 } */
 
+
 /* HERO SECTION */
 .hero {
     display: flex;
@@ -178,8 +179,6 @@ header nav {
     line-height: 1.2;
     margin-bottom: 2rem;
 }
-
-
 
 /* Hero Description */
 .hero-description {
@@ -356,7 +355,6 @@ header nav {
 
 
 
-
 /* COLLECTIONS SECTION */
 .collections {
     padding: 6rem 5%;
@@ -466,15 +464,13 @@ header nav {
 
 
 
-
-
 /* OUR STORY SECTION */
 .our-story {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
-    padding: 7rem 5%;
+    padding: 6rem 5%;
     background-color: var(--background);
 }
 
@@ -488,7 +484,7 @@ header nav {
 
 .our-story .story-image img {
     width: 100%;
-    height: 45rem;
+    height: 35rem;
     object-fit: cover;
     display: block;
 }

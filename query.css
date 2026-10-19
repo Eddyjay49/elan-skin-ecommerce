@@ -232,6 +232,8 @@
         flex-direction: column;
         gap: 3rem;
         padding: 5rem 5%;
+        border: 1.8px solid var(--primary);
+        border-radius: 5px
     }
 
     .our-story .story-image {
