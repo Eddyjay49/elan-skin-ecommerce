@@ -289,7 +289,7 @@
 /* OUR STORY SECTION — MOBILE */
     .our-story {
         gap: 2.5rem;
-        padding: 3rem 5%;
+        padding: 3rem 2%;
         border: 1.8px solid var(--primary);
         border-radius: 5px
     }
